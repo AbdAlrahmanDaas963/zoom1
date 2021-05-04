@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 1s ease;
+}
+body{
+    height: 600px;
+}
+.container{
+    background-color: rgb(104, 245, 23);
+    height: 600px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.element{
+    background-color: darkorange;
+    width: 200px;
+    height: 200px;
+}
+.deep{
+    background-color: rgb(255, 0, 76);
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.deeper{
+    background-color: rgb(231, 71, 132);
+    width: 4px;
+    height: 4px;
+    font-size: 1px;
+    display: none;
+}
+.deeper:hover{
+    transform: rotate(20deg);
+}
